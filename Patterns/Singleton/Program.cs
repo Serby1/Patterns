@@ -6,7 +6,19 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            InstallationDisk d1 = InstallationDisk.Instance();
+            InstallationDisk d2 = InstallationDisk.Instance();
+
+            
+            if (d1 == d2)
+            {
+                Console.WriteLine("Синагалтон работает, обе переменные содержат один и тот же экземпляр");
+
+            }
+            else
+            {
+                Console.WriteLine("Сингалтон не работает, переменные содержат ссылки на разные экземпляры");
+            }
         }
     }
 }
