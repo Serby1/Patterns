@@ -7,17 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adpter", "Adpter\Adpter.csproj", "{A0E99EE0-5789-4761-8E4F-D26346BC73CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bilder", "Bilder\Bilder.csproj", "{6D2654A3-18E6-4D03-8CCA-67AEF1E88F9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Bilder\Builder.csproj", "{6D2654A3-18E6-4D03-8CCA-67AEF1E88F9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{1BDA3E17-854B-4F25-A5D8-C479E9638361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{1BDA3E17-854B-4F25-A5D8-C479E9638361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{B6B99B76-5AD1-48B4-AFA7-6D5A31B04E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{B6B99B76-5AD1-48B4-AFA7-6D5A31B04E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{8FF537D2-DFFD-48C6-B301-B2E2780C1848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{8FF537D2-DFFD-48C6-B301-B2E2780C1848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5A59B5EA-F32E-469F-A933-4F04C1FC241D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{5A59B5EA-F32E-469F-A933-4F04C1FC241D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{09F67EBE-9676-44BC-8132-BA759F26B8A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{09F67EBE-9676-44BC-8132-BA759F26B8A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
