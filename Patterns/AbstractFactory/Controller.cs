@@ -28,4 +28,5 @@ namespace AbstractFactory
             infantry.Shoot();
             tank.Repair();
         }
+    }
 }
