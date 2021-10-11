@@ -4,13 +4,14 @@ using System.Text;
 
 namespace Builder
 {
-    public class ConcreteBuilder : IBuilder
+    class ConcreteBuilder_1: IBuilder
     {
+
         private Product _product = new Product();
 
         // Новый экземпляр строителя должен содержать пустой объект продукта,
         // который используется в дальнейшей сборке.
-        public ConcreteBuilder()
+        public ConcreteBuilder_1()
         {
             this.Reset();
         }
@@ -24,17 +25,17 @@ namespace Builder
         // продукта.
         public void BuildPartA()
         {
-            this._product.Add("Стены из дерева создана");
+            this._product.Add("Стены из металла создана");
         }
 
         public void BuildPartB()
         {
-            this._product.Add("Крыша из дерева создана");
+            this._product.Add("Крыша из кирпича создана");
         }
 
         public void BuildPartC()
         {
-            this._product.Add("Пол из дерева создан");
+            this._product.Add("Пол из кирпича создан");
         }
 
         //сброс значений

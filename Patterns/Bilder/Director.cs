@@ -13,6 +13,7 @@ namespace Builder
             set { _builder = value; }
         }
 
+        
         // Директор может строить несколько вариаций продукта, используя
         // одинаковые шаги построения.
         public void BuildMinimalViableProduct()
