@@ -21,7 +21,7 @@ namespace Flyweight
             }
         }
 
-        // Возвращает хеш строки Легковеса для данного состояния.
+        // Возвращает строки Легковеса для данного состояния.
         public string getKey(Car key)
         {
             List<string> elements = new List<string>();

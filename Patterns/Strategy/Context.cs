@@ -42,6 +42,7 @@ namespace Strategy
             }
 
             Console.WriteLine(resultStr);
+           //паоиоапти
         }
     }
 }
