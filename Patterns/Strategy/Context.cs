@@ -40,8 +40,9 @@ namespace Strategy
             {
                 resultStr += element + ",";
             }
-
+            //bjnjgfnj
             Console.WriteLine(resultStr);
+            int i = 0;
            //паоиоапти
         }
     }
